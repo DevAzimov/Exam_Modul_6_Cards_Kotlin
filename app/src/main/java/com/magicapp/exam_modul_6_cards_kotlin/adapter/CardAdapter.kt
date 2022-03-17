@@ -26,9 +26,9 @@ class CardAdapter: RecyclerView.Adapter<CardAdapter.CardVH>() {
             tvCardHolder.text = cards[position].cardHolder
             tvExpireDate.text = cards[position].cardData
             if (position % 2 == 0){
-                ivCard.setImageResource(R.drawable.card2)
+                ivCard.setImageResource(R.drawable.backround_border_card1)
             }else{
-                ivCard.setImageResource(R.drawable.card3)
+                ivCard.setImageResource(R.drawable.backround_border_card2)
             }
         }
 
